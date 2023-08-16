@@ -10,22 +10,37 @@
     <header>
       <div class="bg-secondary1 py-3">
         <ul class="mycontainer flex justify-between">
-          <li class="mr-auto">naar huisnederlandsbrussel.be</li>
-          <li class="mr-8">Zaal huren</li>
-          <li class="mr-8">Vrijwilliger worden</li>
-          <li class="mr-8">Contact</li>
-          <li class="mr-8">O</li>
-          <li></li>
+          <h1></h1>
+          <a href="#" class="mr-auto"><li>naar huisnederlandsbrussel.be</li></a>
+          <a href="#" class="mr-8"><li>Zaal huren</li></a>
+          <a href="#" class="mr-8"><li>Vrijwilliger worden</li></a>
+          <a href="#" class="mr-8"><li>Contact</li></a>
+          <a href="#" class="mr-8"><li>O</li></a>
         </ul>
       </div>
       <nav class="py-6 border-b-2 border-text/20">
-        <ul class="mycontainer flex justify-between">
-          <li class="mr-auto">logo</li>
-          <li class="mr-8">Nederlands leren</li>
-          <li class="mr-8">Nederlands oefenen</li>
-          <li class="mr-8">Doe een taaltest</li>
-          <li class="mr-8">button</li>
-        </ul>
+        <div class="mycontainer flex justify-between items-center">
+          <div id="logo" class="mr-auto">
+            <a href="#">
+              <img
+                src="./images/logo_huisnederlands_big.svg"
+                alt="logo huis van het nederlands"
+              />
+            </a>
+          </div>
+          <ul class="flex flex-row justify-between items-center">
+            <a href="" class="mr-8 transition-all hover:text-primary"
+              ><li>Nederlands leren</li></a
+            >
+            <a href="" class="mr-8 transition-all hover:text-primary"
+              ><li>Nederlands oefenen</li></a
+            >
+            <a href="" class="mr-8 transition-all hover:text-primary"
+              ><li>Doe een taaltest</li></a
+            >
+            <button class="btn-afspraak bg-primary">Afspraak maken</button>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="flex flex-col justify-between">
@@ -73,7 +88,11 @@
                 <button class="btn-afspraak bg-secondary3">
                   Afspraak maken
                 </button>
-                <a href="#" class="underline underline-offset-4">Meer lezen</a>
+                <a
+                  href="#"
+                  class="underline underline-offset-4 hover:text-secondary3"
+                  >Meer lezen</a
+                >
               </div>
             </div>
           </article>
@@ -90,7 +109,11 @@
                 <button class="btn-afspraak bg-secondary2">
                   Afspraak maken
                 </button>
-                <a href="#" class="underline underline-offset-4">Meer lezen</a>
+                <a
+                  href="#"
+                  class="underline underline-offset-4 hover:text-secondary2"
+                  >Meer lezen</a
+                >
               </div>
             </div>
             <div class="w-2/5 drop-shadow-md">
@@ -116,7 +139,9 @@
                 Suscipit sequi voluptatem quae itaque minus dignissimos animi.
               </p>
               <div>
-                <a href="#" class="underline underline-offset-4 text-primary"
+                <a
+                  href="#"
+                  class="underline underline-offset-4 text-text hover:text-primary"
                   >Meer lezen</a
                 >
               </div>
@@ -125,10 +150,12 @@
         </div>
       </section>
 
-      <section class="bg-secondary2/10 py-10">
-        <article class="mycontainer articleflex mb-28">
+      <section class="bg-secondary2/10 py-40">
+        <article class="mycontainer articleflex items-center">
           <div class="w-1/2">
-            <h3 class="text-primary">Over Huis van het Nederlands Brussel</h3>
+            <h3 class="text-primary">
+              Over Huis van het <br />Nederlands Brussel
+            </h3>
             <p class="mb-10">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
               numquam nesciunt fuga dolores cupiditate aperiam voluptates, quam
@@ -150,6 +177,7 @@
         </article>
       </section>
     </main>
+    <footer>footer</footer>
 
     <script src="bundle.js"></script>
   </body>
