@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://use.typekit.net/ras4kar.css");
+
+@layer base {
+  html {
+    font-family: Korolev, system-ui, sans-serif;
+  }
+  h2 {
+    @apply text-6xl text-secondary3 mb-8 font-bold;
+  }
+  h3 {
+    @apply text-4xl mb-4 font-bold;
+  }
+}
+
+@layer components {
+  .mycontainer {
+    @apply m-auto w-full desktop:max-w-6xl;
+  }
+  .articleflex {
+    @apply flex flex-row justify-between;
+  }
+  .btn-afspraak {
+    @apply text-white text-base rounded-full px-6 py-3 mr-4;
+  }
+}
