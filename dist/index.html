@@ -10,29 +10,27 @@
     <header class="fixed w-full bg-white z-50">
       <div class="bg-secondary1 py-3">
         <ul class="mycontainer flex justify-between text-white">
-          <a href="#" class="mr-auto hover:underline underline-offset-4"
-            ><li>naar huisnederlandsbrussel.be ></li></a
-          >
-          <a
-            href="#"
-            class="mr-2 tablet:mr-8 hover:underline underline-offset-4"
-            ><li>Zaal huren</li></a
-          >
-          <a
-            href="#"
-            class="mr-2 tablet:mr-8 hover:underline underline-offset-4"
-            ><li>Vrijwilliger worden</li></a
-          >
-          <a
-            href="#"
-            class="mr-2 tablet:mr-8 hover:underline underline-offset-4"
-            ><li>Contact</li></a
-          >
-          <a
-            href="#"
-            class="mr-2 tablet:mr-8 hover:underline underline-offset-4"
-            ><li>O</li></a
-          >
+          <li class="mr-auto">
+            <a href="#" class="hover:underline underline-offset-4"
+              >naar huisnederlandsbrussel.be ></a
+            >
+          </li>
+          <li class="mr-2">
+            <a href="#" class="tablet:mr-8 hover:underline underline-offset-4"
+              >Zaal huren</a
+            >
+          </li>
+          <li class="mr-2 tablet:mr-8">
+            <a href="#" class="hover:underline underline-offset-4"
+              >Vrijwilliger worden</a
+            >
+          </li>
+          <li class="mr-2 tablet:mr-8">
+            <a href="#" class="hover:underline underline-offset-4">Contact</a>
+          </li>
+          <li class="mr-2 tablet:mr-8">
+            <a href="#" class="hover:underline underline-offset-4">O</a>
+          </li>
         </ul>
       </div>
       <nav class="py-6 border-b-2 border-text/20">
@@ -40,7 +38,7 @@
           class="mycontainer flex justify-center tablet:justify-between items-center"
         >
           <div id="logo" class="tablet:mr-auto">
-            <a href="#">
+            <a href="/">
               <img
                 src="./images/logo_huisnederlands_big.svg"
                 alt="logo huis van het nederlands"
@@ -48,16 +46,28 @@
             </a>
           </div>
           <ul class="hidden tablet:flex flex-row justify-between items-center">
-            <a href="" class="mr-8 transition-all hover:text-primary"
-              ><li>Nederlands leren</li></a
-            >
-            <a href="#" class="mr-8 transition-all hover:text-primary"
-              ><li>Nederlands oefenen</li></a
-            >
-            <a href="#" class="mr-8 transition-all hover:text-primary"
-              ><li>Doe een taaltest</li></a
-            >
-            <button class="btn-afspraak bg-primary">Afspraak maken</button>
+            <li class="mr-8">
+              <a href="" class="transition-all hover:text-primary"
+                >Nederlands leren</a
+              >
+            </li>
+            <li>
+              <a href="#" class="mr-8 transition-all hover:text-primary"
+                >Nederlands oefenen</a
+              >
+            </li>
+            <li>
+              <a href="#" class="mr-8 transition-all hover:text-primary"
+                >Doe een taaltest</a
+              >
+            </li>
+            <li>
+              <a
+                href="./afspraak.html"
+                class="btn-afspraak bg-primary hover:bg-secondary1"
+                >Afspraak maken</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -74,7 +84,9 @@
                 nieuwe kansen
               </h2>
               <div>
-                <button class="btn-afspraak bg-primary">Afspraak maken</button>
+                <button class="btn-afspraak bg-primary hover:bg-secondary1">
+                  Afspraak maken
+                </button>
                 <a href="#" class="underline underline-offset-4"
                   >Nederlands oefenen ></a
                 >
@@ -107,7 +119,9 @@
                 Suscipit sequi voluptatem quae itaque minus dignissimos animi.
               </p>
               <div>
-                <button class="btn-afspraak bg-secondary3">
+                <button
+                  class="btn-afspraak bg-secondary3 hover:bg-secondary3/80"
+                >
                   Afspraak maken
                 </button>
                 <a
@@ -128,7 +142,9 @@
                 Suscipit sequi voluptatem quae itaque minus dignissimos animi.
               </p>
               <div>
-                <button class="btn-afspraak bg-secondary2">
+                <button
+                  class="btn-afspraak bg-secondary2 hover:bg-secondary2/80"
+                >
                   Afspraak maken
                 </button>
                 <a
@@ -142,7 +158,6 @@
               <img
                 src="./images/taaltest1.png"
                 alt="afbeelding nederlands leren"
-                class="w-full h-auto"
               />
             </div>
           </article>
@@ -151,7 +166,6 @@
               <img
                 src="./images/nederlandsoefenenbrussel1.png"
                 alt="afbeelding nederlands oefenen"
-                class="w-full h-auto"
               />
             </div>
             <div class="tablet:w-1/2">
@@ -209,11 +223,7 @@
         </article>
         <div class="mycontainer flex items-center bg-primary1 rounded-xl p-10">
           <div class="mr-10">
-            <img
-              src="./images/textballon_quote.svg"
-              alt="textballon quote"
-              class="w-full h-auto"
-            />
+            <img src="./images/textballon_quote.svg" alt="textballon quote" />
           </div>
           <div>
             <h4 class="text-white text-xl">Samira’s verhaal</h4>
@@ -300,7 +310,9 @@
                 >
               </div>
 
-              <button class="bg-secondary1 btn-afspraak mt-4 mr-0">
+              <button
+                class="bg-secondary1 btn-afspraak mt-4 mr-0 hover:bg-primary"
+              >
                 Inschrijven
               </button>
             </form>

@@ -16,6 +16,9 @@
   h4 {
     @apply text-2xl mb-4 font-bold;
   }
+  img {
+    @apply w-full h-auto block;
+  }
 }
 @layer components {
   .mycontainer {
