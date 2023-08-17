@@ -19,7 +19,7 @@
 }
 @layer components {
   .mycontainer {
-    @apply m-auto w-full desktop:max-w-6xl;
+    @apply w-11/12 m-auto tablet:w-full desktop:max-w-6xl;
   }
 
   .articleflex {
