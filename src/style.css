@@ -23,7 +23,7 @@
   }
 
   .articleflex {
-    @apply flex flex-col justify-between p-8 w-full mb-8 tablet:flex-row tablet:mb-28 laptop:p-0;
+    @apply flex flex-col justify-between p-8 w-full mb-8 tablet:flex-row tablet:mb-24 laptop:p-0;
   }
 
   .btn-afspraak {
